@@ -8,6 +8,7 @@ public class Boat : MonoBehaviour
 
     //MOVEMENT
     private bool anchored;
+    private bool attemptingMovement;
 
     void Start()
     {
@@ -27,6 +28,11 @@ public class Boat : MonoBehaviour
     }
 
     private void Movement()
+    {
+
+    }
+
+    private void AttemptingMovement()
     {
 
     }
