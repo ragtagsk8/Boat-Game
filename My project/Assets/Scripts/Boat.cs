@@ -12,6 +12,7 @@ public class Boat : MonoBehaviour
     //MOVEMENT
     private bool anchored;
     private bool attemptingMovement;
+    [SerializeField] private float movementSpeed;
     private float dirX = 0f;
     private float dirY = 0f;
 
@@ -39,7 +40,7 @@ public class Boat : MonoBehaviour
     {
         dirX = Input.GetAxisRaw("Horizontal");
         dirY = Input.GetAxisRaw("Vertical");
-        rb.linearVelocity = new Vector2(dirX, dirY);
+        rb.linearVelocity = new Vector2(dirX * movementSpeed, dirY * movementSpeed);
         rotatePlayer();
     }
 
