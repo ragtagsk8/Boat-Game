@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Animated Water Tile
   m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
   m_AnimatedSprites:
-  - {fileID: 449254318606667149, guid: 5521097186d0d6e41a8be71c73b0e0a2, type: 3}
-  - {fileID: -1657470572, guid: 5521097186d0d6e41a8be71c73b0e0a2, type: 3}
-  - {fileID: 1594005160, guid: 5521097186d0d6e41a8be71c73b0e0a2, type: 3}
-  - {fileID: -67607808, guid: 5521097186d0d6e41a8be71c73b0e0a2, type: 3}
+  - {fileID: -5186657365815009278, guid: 84117f3a61415234b9c80a21aaadd7c4, type: 3}
+  - {fileID: 241189738, guid: 84117f3a61415234b9c80a21aaadd7c4, type: 3}
+  - {fileID: -323041617, guid: 84117f3a61415234b9c80a21aaadd7c4, type: 3}
+  - {fileID: -285296834, guid: 84117f3a61415234b9c80a21aaadd7c4, type: 3}
   m_MinSpeed: 3
   m_MaxSpeed: 3
   m_AnimationStartTime: 0
