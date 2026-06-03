@@ -10,6 +10,7 @@ public class TilemapVisualiser : MonoBehaviour
 
     public void PaintOceanTiles(IEnumerable<Vector2Int> floorPositions) {
         PaintTiles(floorPositions, oceanTilemap, waterTiles);
+        oceanTilemap.RefreshAllTiles();
     }
 
     private void PaintTiles(IEnumerable<Vector2Int> positions, Tilemap tilemap, TileBase tile) {

@@ -315,6 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd608b1ae4f0b8847aa33201c90136bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player_trans: {fileID: 1028613007}
 --- !u!1 &565296921
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +327,7 @@ GameObject:
   - component: {fileID: 565296922}
   - component: {fileID: 565296924}
   - component: {fileID: 565296923}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Ocean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,7 +773,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &879284053
 MonoBehaviour:
   m_ObjectHideFlags: 0
