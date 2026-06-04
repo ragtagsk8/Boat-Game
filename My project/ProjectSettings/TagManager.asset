@@ -35,8 +35,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - Tiles
+  - Searchables
+  - Ocean
   m_SortingLayers:
   - name: Default
     uniqueID: 0
